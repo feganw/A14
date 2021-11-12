@@ -1,0 +1,15 @@
+/* Copyright 2021 Wesley Fegan - IS117005 */
+
+body {
+	background-color: tan;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	height: 50px;
+	width: 100%;
+	background-color: gray;
+	text-align: center;
+	left: 0;
+}

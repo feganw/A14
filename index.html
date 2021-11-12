@@ -1,0 +1,22 @@
+<!-- Copyright 2021 Wesley Fegan - IS117005-->
+
+<!DOCTYPE HTML>
+
+<html lang="en">
+  <head>
+    <meta charset="utf8">
+    <title>Wes Fegan's Cookie</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="cookie.js"></script>
+  </head>
+  
+  <body onload="checkCookie()">
+    <!--<button type="button" onclick="document.cookie="firstname=John;expires=Wed, 18 Dec 2026 12:00:00 GMT"">Create a cookie!</button>-->
+    <button type="button" onclick="checkCookie()">Create Cookie</button>
+    <button type="button" onclick='document.cookie="username=;expires=Thu, 1 Jan 1970 00:00:00 UTC; path=/;"'>Destroy cookie</button>
+  </body>
+  
+  <footer>
+    &copy;2021 Wesley Fegan
+  </footer>
+</html>
